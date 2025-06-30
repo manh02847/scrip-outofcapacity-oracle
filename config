@@ -1,0 +1,6 @@
+[DEFAULT]
+user=xxxx
+fingerprint=xxxx
+tenancy=xxxx
+region=xxxx
+key_file=xxxx.pem
