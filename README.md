@@ -159,8 +159,3 @@ python3 bot.py
 - Kiểm tra kỹ quota và giới hạn Oracle để tránh lỗi.
 - Nếu script báo lỗi `Out of capacity`, bot sẽ tự retry.
 
----
-
-## 🧑‍💻 Tác giả
-
-- Cập nhật và đóng góp tại: [GitHub repo nếu có]
