@@ -51,11 +51,11 @@ Get Root Access First
 Second  :-  pip install pyopenssl --upgrade
 ----------------------------------------------------------------------------------------------
 
-Test Script  :-  python3 bot.py
+Test Script  :-  python3 filename.py
 
 Make Screen  :-  screen
 
-Run Script  :-  python3 bot.py
+Run Script  :-  python3 filename.py
 
 Go to Screen Again  :-  screen -r
 
