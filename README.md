@@ -158,6 +158,7 @@ Test Script  :-  python3 bot.py
 Muốn chạy ẩn trong nền (không tắt khi logout):
 
 ```bash
+apt update && apt install screen -y
 screen -S oracle_bot
 python3 arm.py
 # Ctrl + A, rồi nhấn D để thoát khỏi screen
