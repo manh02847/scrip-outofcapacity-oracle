@@ -33,7 +33,7 @@ user=ocid1.user.oc1..xxxxx
 fingerprint=xx:xx:xx:xx:xx:xx
 tenancy=ocid1.tenancy.oc1..xxxxxx
 region=eu-paris-1
-key_file=key.pem
+key_file=/path/to/oci_api_key.pem
 ```
 
 > 🔐 **Lưu ý:** Không chia sẻ `key_file` và `ocid` của bạn!
@@ -50,7 +50,19 @@ Bạn cần:
 
 ---
 
-### 3. Lấy URL và Payload API tạo instance (qua F12 - cURL bash)
+
+### 3. Tạo SSH Key bằng PuTTYgen (dễ cho Windows)
+
+1. Tải về [PuTTYgen](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+2. Mở PuTTYgen → Chọn loại key là **RSA**, số bit là **4096**
+3. Nhấn **Generate** rồi di chuột để tạo key
+4. Copy phần `Public key` dán vào `ssh_authorized_keys`
+5. Nhấn **Save private key** để lưu `.ppk` dùng cho kết nối SSH
+
+> 🔁 Nếu cần key dạng OpenSSH (dùng cho code), vào menu Conversions → **Export OpenSSH key**
+
+---
+### 4. Lấy URL và Payload API tạo instance (qua F12 - cURL bash)
 
 1. Truy cập trang tạo VPS: https://cloud.oracle.com/compute/instances
 2. Nhấn **F12** để mở DevTools → tab **Network**
@@ -82,17 +94,6 @@ curl 'https://iaas.eu-paris-1.oraclecloud.com/20160918/instances/'   -X POST   -
 
 ---
 
-### 4. Tạo SSH Key bằng PuTTYgen (dễ cho Windows)
-
-1. Tải về [PuTTYgen](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-2. Mở PuTTYgen → Chọn loại key là **RSA**, số bit là **4096**
-3. Nhấn **Generate** rồi di chuột để tạo key
-4. Copy phần `Public key` dán vào `ssh_authorized_keys`
-5. Nhấn **Save private key** để lưu `.ppk` dùng cho kết nối SSH
-
-> 🔁 Nếu cần key dạng OpenSSH (dùng cho code), vào menu Conversions → **Export OpenSSH key**
-
----
 
 ### 5. Cấu hình Telegram bot
 
