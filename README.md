@@ -99,7 +99,7 @@ curl 'https://iaas.eu-paris-1.oraclecloud.com/20160918/instances/'   -X POST   -
 Trong file `amd.py` hoặc `arm.py` thay thông tin từ Url (bash) đã copy vào
 Dán vào notepad nhấn CTRL + F nhập 'availabilityDomains' rồi thay vào, các mục khác tương tự.
 ```python
-availabilityDomains = ["yvaO:EU-PARIS-1-AD-1"]
+availabilityDomains = ["yvaO:EU-PAR..."]
 displayName = 'instance-2025...'
 compartmentId = "ocid1.tenancy.oc1..."
 subnetId = "ocid1.subnet.oc1..."
