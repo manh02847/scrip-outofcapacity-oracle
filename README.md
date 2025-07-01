@@ -180,6 +180,6 @@ python3 arm.py
 
 ---
 
-## 🧑‍💻 Tác giả
+## Tác giả
 
 - Cập nhật và đóng góp tại: (https://github.com/manh02847/scrip-outofcapacity-oracle)
