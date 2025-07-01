@@ -166,14 +166,14 @@ python3 arm.py
 
 ---
 
-## 📬 Kết quả
+## Kết quả
 
 - Khi có slot, script sẽ tự động tạo VPS.
 - Bạn sẽ nhận được thông báo trên Telegram với chi tiết instance và region.
 
 ---
 
-## 🧯 Ghi chú
+## Ghi chú
 
 - Kiểm tra kỹ quota và giới hạn Oracle để tránh lỗi.
 - Nếu script báo lỗi `Out of capacity`, bot sẽ tự retry.
