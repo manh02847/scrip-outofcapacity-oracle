@@ -116,7 +116,7 @@ uid = "your_telegram_chat_id"
 
 ## ▶️ Chạy bot
 
-# Windoe
+# Window
 ```bash
 Python Download Link  :-  https://www.python.org/
 
@@ -128,12 +128,38 @@ Install Python Packages  :-  pip install -r requirements.txt
 
 Script Starting  :-  python bot.py
 ```
+# Linux 
+```bash
+Get Root Access  :-  sudo -i
 
+Update Packages  :-  apt-get update -y && apt-get upgrade -y
+
+Install Python3, Pip, Screen and Git  :-  apt-get install python3 -y && apt-get install python3-pip -y && apt-get install screen -y && apt-get install git -y
+
+Copy GitHub Repository  :-  git clone ******
+
+Find Copied Folder  :-  ls
+
+Go to Folder  :-  cd ******
+
+Install Python Packages  :-  pip install -r requirements.txt
+
+# fix error #
+
+First  :-  apt-get remove python3-pip -y && wget https://bootstrap.pypa.io/get-pip.py && python3 get-pip.py && sudo reboot
+
+Get Root Access First
+
+Second  :-  pip install pyopenssl --upgrade
+----------------------------------------------------------------------------------------------
+
+Test Script  :-  python3 bot.py
+```
 Muốn chạy ẩn trong nền (không tắt khi logout):
 
 ```bash
 screen -S oracle_bot
-python3 bot.py
+python3 arm.py
 # Ctrl + A, rồi nhấn D để thoát khỏi screen
 ```
 
