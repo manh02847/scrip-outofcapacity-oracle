@@ -152,22 +152,6 @@ python3 bot.py
 
 ---
 
-## ✍️ Ghi chú thêm: Dán URL từ F12 vào bot.py như nào cho dễ?
-
-1. Sau khi copy `cURL (bash)` từ F12 (xem hướng dẫn ở trên)
-2. Dán toàn bộ vào **Notepad** hoặc Notepad++ để xem
-3. Tìm dòng có dạng:
-   ```bash
-   curl 'https://iaas.eu-paris-1.oraclecloud.com/20160918/instances/' \
-   ```
-4. Copy nguyên URL (bên trong dấu `'`)
-5. Mở file `bot.py`, tìm dòng có chứa `url = ` hoặc phần request gửi POST tạo instance
-6. Thay URL cũ bằng URL bạn vừa copy
-
-> ✅ Không cần copy hết curl, chỉ cần URL chính xác là đủ cho phần request của script.
-
----
-
 ## 🧑‍💻 Tác giả
 
-- Cập nhật và đóng góp tại: [GitHub repo nếu có]
+- Cập nhật và đóng góp tại: (https://github.com/manh02847/scrip-outofcapacity-oracle)
