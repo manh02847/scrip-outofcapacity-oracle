@@ -95,17 +95,7 @@ curl 'https://iaas.eu-paris-1.oraclecloud.com/20160918/instances/'   -X POST   -
 ---
 
 
-### 5. Cấu hình Telegram bot
-
-- Tìm [BotFather](https://t.me/BotFather) trên Telegram.
-- Tạo bot mới để lấy `bot_token`.
-- Nhắn một tin bất kỳ vào bot, sau đó vào [https://api.telegram.org/bot<bot_token>/getUpdates](https://api.telegram.org/bot<bot_token>/getUpdates) để lấy `chat_id`.
-
----
-
-## ⚙️ Cấu hình bot
-
-Trong file `amd.py` hoặc `arm.py` tùy bạn muốn treo scrip nào, chỉnh các thông tin sau:
+### 5. Cấu hình4 chỉnh các thông tin sau:
 
 ```python
 availabilityDomains = ["<Availability_Domain_OCID>"]
