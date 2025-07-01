@@ -116,8 +116,17 @@ uid = "your_telegram_chat_id"
 
 ## ▶️ Chạy bot
 
+# Windoe
 ```bash
-python3 arm.py
+Python Download Link  :-  https://www.python.org/
+
+GitHub Login  :-  https://github.com/login
+
+Opening Command Prompt  :-  cmd
+
+Install Python Packages  :-  pip install -r requirements.txt
+
+Script Starting  :-  python bot.py
 ```
 
 Muốn chạy ẩn trong nền (không tắt khi logout):
