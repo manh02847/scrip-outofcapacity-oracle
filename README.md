@@ -105,7 +105,7 @@ curl 'https://iaas.eu-paris-1.oraclecloud.com/20160918/instances/'   -X POST   -
 
 ## ⚙️ Cấu hình bot
 
-Trong file `bot.py` hoặc `config.py` chỉnh các thông tin sau:
+Trong file `amd.py` hoặc `arm.py` tùy bạn muốn treo scrip nào, chỉnh các thông tin sau:
 
 ```python
 availabilityDomains = ["<Availability_Domain_OCID>"]
@@ -125,7 +125,7 @@ uid = "your_telegram_chat_id"
 ## ▶️ Chạy bot
 
 ```bash
-python3 bot.py
+python3 arm.py
 ```
 
 Muốn chạy ẩn trong nền (không tắt khi logout):
